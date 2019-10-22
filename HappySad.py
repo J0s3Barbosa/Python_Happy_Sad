@@ -17,11 +17,9 @@ def isHappySadNumber(num):
         
     #Happy number always ends with 1    
     if(result == 1): 
-        print(str(num) + " is a happy number");    
         return True;
     #Sad number ends in a cycle of repeating numbers which contain 4    
     elif(result == 4):    
-        print(str(num) + " is not a happy number");   
         return False;
 
 

@@ -11,7 +11,7 @@ class TestClass:
         num = 99
         response = HsControll.isHappySadNumber(num)
         assert response == False
-
+ 
 
 
 

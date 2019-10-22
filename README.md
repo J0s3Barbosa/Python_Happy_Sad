@@ -11,10 +11,10 @@ py -m virtualenv venv
 ative o env
 . venv\scripts\activate
 
-pip install requirements.txt
+pip install -r requirements.txt
 
 pytest Test_HappySad.py
-
+py HappySadMain.py
 
 
 
