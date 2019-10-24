@@ -13,8 +13,11 @@ ative o env
 
 pip install -r requirements.txt
 
+Run tests
 pytest Test_HappySad.py
-py HappySadMain.py
+
+Run desktop app
+py tkinterMain.py
 
 
 
