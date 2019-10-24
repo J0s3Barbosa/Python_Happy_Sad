@@ -1,27 +1,41 @@
-# Python_Happy_Sad
+### About the project: ###
 
+```sh
 
-instalar virtualenv se nao tiver instalado ainda
+```
+### Run the project: ###
+
+```sh
+Install virtualenv if not yet
+
 py -m pip install virtualenv
 python -m pip install --upgrade pip
 
-execute o cmd abaixo
+Run the command below to run virtualenv
 py -m virtualenv venv
 
-ative o env
+Activate venv
 . venv\scripts\activate
 
+Install Requirements
 pip install -r requirements.txt
 
-Run tests
+
+```
+### Run tests: ###
+
+```sh
 pytest Test_HappySad.py
+```
 
-Run desktop app
+### Run desktop app: ###
+
+```sh
 py tkinterMain.py
+```
 
 
-
-
+```sh
 
 Para saber se um número é feliz, você deve obter o quadrado de cada dígito deste número, em seguida você faz a soma desses resultados. A seguir o mesmo procedimento deve ser feito com o valor resultante desta soma. Se ao repetir o procedimento diversas vezes obtivermos o valor 1, o número inicial é considerado feliz.
 
@@ -42,6 +56,11 @@ Podemos observar nesse exemplo que os números 49, 97, 130 e 10 também são fel
 E um número triste? Como sabemos que um número não será feliz?
 
 Desenvolva um programa que determine se um número é feliz ou triste. Faça o programa utilizando TDD e retornando True para números felizes e False para números tristes!
+
+```
+
+
+
 
 
 
