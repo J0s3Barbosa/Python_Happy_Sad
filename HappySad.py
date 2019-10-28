@@ -22,4 +22,22 @@ def isHappySadNumber(num):
     elif(result == 4):    
         return False;
 
-
+def fun(num1):  
+    Result = {}  
+    if num1 > 0:
+        response = isHappySadNumber(num1)
+        if(response):  
+            happyResult = str(num1) + " is a happy number"
+            Result = { 'string': '{}!'.format(happyResult),
+                'bool': response
+            } 
+            return Result
+        else:   
+            sadResult = str(num1) + " is not a happy number"
+            Result = {
+                'string': '{}!'.format(sadResult),
+                'bool': response
+            } 
+            return Result
+    else:
+        return "Number should be bigger than 0"
